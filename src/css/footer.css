@@ -1,0 +1,43 @@
+.link {
+  padding: 50px;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+  text-decoration: none;
+  color: grey;
+ 
+}
+
+.sub-links a:hover {
+  text-decoration: underline;
+}
+
+.logos a{
+  padding: 10px;
+}
+
+.logos img {
+margin-bottom: 5px;
+}
+.grayscale { filter: grayscale(150%); }
+
+footer {
+  padding: 50px;
+  color: var(--dark);
+  margin-bottom: 50px;
+  
+}
+p{
+	text-align: center;
+	color: grey;
+	padding: 10px;
+}
+
